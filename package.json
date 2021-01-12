@@ -1,0 +1,17 @@
+{
+  "name": "0111_lab",
+  "version": "1.0.0",
+  "description": "Node.js Class lab for 01/11",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
