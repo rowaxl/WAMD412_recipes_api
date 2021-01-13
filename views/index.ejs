@@ -1,0 +1,23 @@
+<%- include('partials/head') %>
+
+<div class="container">
+  <h1>
+    My Recipes
+  </h1>
+
+  <div class="card-group">
+    <% for(let recipe of recipes) { %>
+    <div class="card">
+      <img class="card-img-top" src="<%= recipe.image_url %>" alt="" />
+      <div class="card-body">
+        <h5 class="card-title">
+          <%= recipe.title %>
+        </h5>
+      </div>
+    </div>
+    <% } %>
+  </div>
+</div>
+
+</body>
+</html>
